@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 
-#include "zcash/Address.hpp"
-#include "zcash/Note.hpp"
+#include "zclassic/Address.hpp"
+#include "zclassic/Note.hpp"
 
 #include "amount.h"
 #include "random.h"
@@ -9,9 +9,9 @@
 
 #include <array>
 
-using namespace libzcash;
+using namespace libzclassic;
 
-// Test data from https://github.com/zcash-hackworks/zcash-test-vectors/blob/master/sapling_key_components.py
+// Test data from https://github.com/zclassic-hackworks/zclassic-test-vectors/blob/master/sapling_key_components.py
 TEST(SaplingNote, TestVectors)
 {
     uint64_t v = 0;

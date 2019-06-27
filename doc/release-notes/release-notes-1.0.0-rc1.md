@@ -1,4 +1,4 @@
-4ZEC (1):
+4ZCL (1):
       Correct line swap
 
 Cory Fields (7):
@@ -49,15 +49,15 @@ Jay Graber (17):
       Document wallet reindexing for z_importkey description in payment-api.md
       Rm beta 1 release note about encrypted wallets
       Note that Coinbase maturity interval does not protect JoinSplits
-      Refer to Zcash wiki in INSTALL
+      Refer to Zclassic wiki in INSTALL
       Rm bitcoin logo
-      Rm build-unix.md, to keep single copy of build instructions for Zcash on github wiki
+      Rm build-unix.md, to keep single copy of build instructions for Zclassic on github wiki
       Rm Bitcoin-specific documentation
-      Add note that document is not updated for Zcash to translation policy
+      Add note that document is not updated for Zclassic to translation policy
       Rm doc for disabled REST interface
-      Change alpha to beta testnet, add zcash hidden service
-      Improve documentation on connecting to zcash hidden server
-      Improve documentation on connecting to zcash hidden server
+      Change alpha to beta testnet, add zclassic hidden service
+      Improve documentation on connecting to zclassic hidden server
+      Improve documentation on connecting to zclassic hidden server
       Update tor.md
       Distinguish between connecting to 1 vs multiple tor nodes
       Revert "Rm Bitcoin-specific documentation"
@@ -68,26 +68,26 @@ Kevin Gallagher (24):
       Set wget retry options for fetching parameters
       Increases timeout to 30s, wait before retry to 3s
       Initial packaging for Debian
-      Moves zcash-fetch-params to /usr/bin
+      Moves zclassic-fetch-params to /usr/bin
       Adds newline between source and package definition
       Adds copyright file back to Debian package
-      Updates Linux gitian descriptor file for Zcash
+      Updates Linux gitian descriptor file for Zclassic
       Updates trusty -> jessie in Gitian Linux descriptor
       Adds distro: debian to gitian-linux.yml
-      Updates Gitian descriptor for Zcash
+      Updates Gitian descriptor for Zclassic
       Removes Windows and OSX packaging from EXTRA_DIST
       Moves V=1 and NO_QT=1 to MAKEOPTS
       Include contrib/devtools/split-debug.sh from upstream
       Adds faketime to Gitian build dependencies
       Inlude crypto/equihash.tcc in list of sources for dist
-      Adds zcash/Zcash.h to LIBZCASH sources
-      Adds zcash/Proof.hpp to LIBZCASH_H
+      Adds zclassic/Zclassic.h to LIBZCLASSIC sources
+      Adds zclassic/Proof.hpp to LIBZCLASSIC_H
       Add alertkeys.h to libbitcoin_server_a_SOURCES
-      Adds files in src/zcash/circuit to libzcash_a_SOURCES
+      Adds files in src/zclassic/circuit to libzclassic_a_SOURCES
       Adds zcbenchmarks.h to libbitcoin_wallet_a_SOURCES
-      Adds json_test_vectors.h to zcash_gtest_SOURCES
+      Adds json_test_vectors.h to zclassic_gtest_SOURCES
       Adds additional licenses to Debian copyright file
-      Updates Zcash Core developers -> Zcash developers
+      Updates Zclassic Core developers -> Zclassic developers
       Adds . to blank lines in Google license
 
 MarcoFalke (3):
@@ -108,7 +108,7 @@ Simon (11):
       Use -debug=zrpc for z_* rpc calls (#1504)
       Document CWallet::GetFilteredNotes and fix return type which should be void.
       Fix test so that the encrypted wallet is output to the test_bitcoin -datadir folder.
-      Reorder gtests in zcash-gtest.
+      Reorder gtests in zclassic-gtest.
       Return improved error message when trying to spend Coinbase coins (#1373).
 
 Wladimir J. van der Laan (6):

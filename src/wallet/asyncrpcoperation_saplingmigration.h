@@ -1,8 +1,8 @@
 #include "amount.h"
 #include "asyncrpcoperation.h"
 #include "univalue.h"
-#include "zcash/Address.hpp"
-#include "zcash/zip32.h"
+#include "zclassic/Address.hpp"
+#include "zclassic/zip32.h"
 
 class AsyncRPCOperation_saplingmigration : public AsyncRPCOperation
 {
@@ -16,7 +16,7 @@ public:
     AsyncRPCOperation_saplingmigration& operator=(AsyncRPCOperation_saplingmigration const&) = delete; // Copy assign
     AsyncRPCOperation_saplingmigration& operator=(AsyncRPCOperation_saplingmigration&&) = delete;      // Move assign
 
-    static libzcash::SaplingPaymentAddress getMigrationDestAddress(const HDSeed& seed);
+    static libzclassic::SaplingPaymentAddress getMigrationDestAddress(const HDSeed& seed);
 
     virtual void main();
 
